@@ -5,10 +5,10 @@ Desenvolvimento do Modelo Conceitual, Lógico e Físico conforme as seguintes [i
 ## Tabela Conteudo
 
 1. Modelo Conceitual
-    - [MER](diagramas/Modelo%20Conceitual.png)
+    - [Diagrama](diagramas/Modelo%20Conceitual.png)
 
 3. Modelo Logico
-     - [DER](diagramas/Modelo%20Relacional.png)
+     - [Diagrama](diagramas/Modelo%20Relacional.png)
 
 5. Modelo Fisico
      - [Create](sql/00_Create_sql.sql)
