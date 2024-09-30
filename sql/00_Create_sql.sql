@@ -36,11 +36,9 @@ CREATE TABLE DepartamentoFilial (
     Filial_idFilial INT UNSIGNED NOT NULL,
     PRIMARY KEY (Filial_idFilial , Departamento_idDepartamento),
     FOREIGN KEY (Filial_idFilial)
-        REFERENCES Filial (idFilial)
-        ON DELETE CASCADE,
+        REFERENCES Filial (idFilial),
     FOREIGN KEY (Departamento_idDepartamento)
         REFERENCES Departamento (idDepartamento)
-        ON DELETE CASCADE
 );
 
 CREATE TABLE Projeto (
